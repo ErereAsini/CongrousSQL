@@ -1,7 +1,7 @@
 ------ SQL ASSIGNMENT 3 -------
 
 
----1.---
+---1. ---
 
 SELECT Name,
        Size,
@@ -26,7 +26,7 @@ WHERE CASE
        END = 'Platinum'
 
 
----2.---
+---2. ---
 
 SELECT Name,
        ProductID,
@@ -44,7 +44,7 @@ WHERE CASE
         END IN ('Under-Weight', 'Over-Weight')
 
 
----3.---
+---3. ---
 
 SELECT SUM(StandardCost) AS TotalCost,
        STDEV(ListPrice) AS ListPriceStrdDev

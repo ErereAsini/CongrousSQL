@@ -18,7 +18,7 @@
 -- GROUP BY ProductNumber
 
 
-----Expressions
+---- Expressions
 
 SELECT  Name,
         ID = ProductID, 
@@ -46,7 +46,7 @@ FROM SalesLT.Product
 ORDER BY ProductNumber;
 
 
----SQL CLASS 2---
+---SQL CLASS 2. ---
 
 Select ProductID, 
        Name As ProductName,
@@ -99,7 +99,7 @@ Offset 5 Rows
 Fetch First 5 Rows Only
 
 
----- SQL CLASS 3 ----
+---- SQL CLASS 3. ----
 
 
 Select Name,
@@ -215,7 +215,7 @@ WHERE Weight IS NOT NULL AND
 --Where NOT Color = 'Black' 
 
 
--- Class Work
+-- Class Work --
 
 Select Name,
        SellEndDate,
