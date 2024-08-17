@@ -871,4 +871,3 @@ WHERE Color = 'Black'
 ORDER BY StandardCost DESC
 
 
-
