@@ -55,5 +55,3 @@ WHERE CASE
             WHEN SellEndDate IS NULL AND Weight >= 6000 THEN 'Over-Weight'
        END IN ('Under-Weight', 'Over-Weight')
 HAVING SUM(StandardCost) >= 2000
-
-

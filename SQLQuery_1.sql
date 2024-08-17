@@ -869,5 +869,3 @@ INNER JOIN SalesLT.ProductModel AS pm
 ON p.ProductModelID = pm.ProductModelID
 WHERE Color = 'Black'
 ORDER BY StandardCost DESC
-
-
